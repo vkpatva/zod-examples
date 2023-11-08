@@ -10,12 +10,18 @@ async function fetchPerson(): Promise<Person> {
   const results = await fetch("https://swapi.dev/api/people/1").then((res) =>
     res.json()
   );
-  try {
-    PersonSchema.parse(results);
+  // try {
+  //   PersonSchema.parse(results);
+  //   return results;
+  // } catch (error) {
+  //   console.log("ZodError Identified : ", error);
+  //   throw "Zod Validation failed";
+  // }
+  if (PersonSchema.safeParse(results).success) {
     return results;
-  } catch (error) {
-    console.log("ZodError Identified : ", error);
-    throw "Zod Validation failed";
+  } else {
+    console.log({ ...PersonSchema.safeParse(results) });
+    throw "Zod Validation Failed";
   }
 }
 
