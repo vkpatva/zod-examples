@@ -56,6 +56,19 @@ npm run start-withoutZod
 npm run start-example
 ```
 
+- Example script for DataValidation:
+
+```bash
+npm run DataValidation
+```
+
+
+- Example script for coersion:
+
+```bash
+npm run coersion
+```
+
 Feel free to explore and modify the examples in the TypeScript files (`withZod.ts`, `withoutZod.ts`, `withoutZod2.ts`) to suit your specific use case.
 
 ## Credits
