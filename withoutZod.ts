@@ -15,5 +15,5 @@ async function fetchPerson(): Promise<Person> {
 
 fetchPerson().then((person) => {
   console.log(person.name);
-  console.log(person.movies);
+  console.log(person.movies[0]);
 });

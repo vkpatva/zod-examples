@@ -20,7 +20,7 @@ async function fetchPerson(): Promise<Person> {
 
   console.log("Fetch results: ", results);
   const parsedResults = Person.parse(results);
-  console.log("zzzzzzzz Zod parsed: ", parsedResults);
+  console.log("Zod parsed: ", parsedResults);
 
   return parsedResults;
 }
