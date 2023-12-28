@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start-zod": "nodemon index.ts",
+    "start-zod": "nodemon withZod.ts",
     "start-withoutZod": "nodemon withoutZod.ts",
-    "start-example": "nodemon example1.ts",
+    "start-example": "nodemon withoutZod2.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

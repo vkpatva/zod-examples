@@ -4,6 +4,7 @@ const PersonSchema = z.object({
   name: z.string(),
   movies: z.array(z.string()),
 });
+
 type Person = z.infer<typeof PersonSchema>;
 
 async function fetchPerson(): Promise<Person> {
