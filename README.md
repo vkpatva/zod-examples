@@ -62,10 +62,3 @@ Feel free to explore and modify the examples in the TypeScript files (`withZod.t
 
 This project was inspired by [Jimmydalecleveland's Zod Introduction Video](https://youtu.be/evX18f-n4AI). You can also check out the original source code on [GitHub](https://github.com/Jimmydalecleveland/zod-introduction-video).
 
-## Contributing
-
-If you'd like to contribute to this demo or report issues, please follow the standard GitHub contribution guidelines.
-
-## License
-
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
