@@ -29,6 +29,17 @@
       "command": "npm run start-example",
       "runAtStart": false
     },
+    "DataValidation": {
+      "name": "data-validation",
+      "command": "npm run DataValidation",
+      "runAtStart": false
+    },
+    "Coercion": {
+      "name": "coercion",
+      "command": "npm run coersion",
+      "runAtStart": false
+    },
+
     "test": {
       "name": "test",
       "command": "npm run test",
