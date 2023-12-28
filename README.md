@@ -1,4 +1,4 @@
-# Zod TypeScript Library Demo
+# Zod TypeScript First Library Demo
 
 This repository serves as a demonstration for utilizing the Zod library in a TypeScript project. Zod is a powerful TypeScript-first schema declaration and validation library that simplifies handling complex data structures.
 
