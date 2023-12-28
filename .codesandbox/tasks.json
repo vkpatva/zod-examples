@@ -1,0 +1,38 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "start-zod": {
+      "name": "start-zod",
+      "command": "npm run start-zod",
+      "runAtStart": false
+    },
+    "start-withoutZod": {
+      "name": "start-withoutZod",
+      "command": "npm run start-withoutZod",
+      "runAtStart": false
+    },
+    "start-example": {
+      "name": "start-example",
+      "command": "npm run start-example",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    }
+  }
+}
